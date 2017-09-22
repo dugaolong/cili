@@ -43,7 +43,7 @@ public class Back extends Fragment {
         List<Map<String, Object>> list = new ArrayList<Map<String, Object>>();
         for (int i = 0; i < 10; i++) {
             Map<String, Object> map = new HashMap<String, Object>();
-            map.put("image", R.mipmap.cili);
+            map.put("image", R.mipmap.lianjie);
             map.put("title", "这是一个标题2" + i);
             map.put("info", "这是一个详细信息2" + i);
             list.add(map);
